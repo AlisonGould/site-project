@@ -1,0 +1,135 @@
+/*****BANNER*****/
+
+header{
+    /**shorthand for the file, center vertically, center horizontaly, picture will not repeat, backup color..... Only used for full site**/
+    background: url("/Pictures/berTOLDT.jpg") center center no-repeat #3B4043;
+    /**not included in background shorthand I guess...**/
+    background-size: cover;
+    padding-bottom: 5%;
+    color: white;
+    text-align: center;
+}
+
+#title{
+    padding: 2% 2%;
+    font-size: 2em;
+    text-align: left;
+}
+
+.subtitle{
+    margin: 0%;
+    text-align: center;
+    font-size: 3em;
+}
+
+/*****NAVIGATION*****/
+
+nav{
+    background: #3B4043;
+}
+
+nav ul{
+    text-align: center;
+    margin: 0%;
+    
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 2% 5%;
+    
+}
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+}
+
+/*logo in navigation*/
+#logo{
+    text-align: left;
+    border: 0;
+    padding: 2% 0%;
+    float: left;
+}
+
+/*border around projects*/
+nav ul a:nth-child(3){
+    border-left: .1em solid black;
+    border-right: .1em solid black;
+}
+
+
+/*****CONTENT*****/
+
+.content{
+    background-color: lightgrey;
+}
+
+.content div:nth-child(1){
+    padding: 5%;
+}
+
+.divider{
+    /*has to be an easier way to center the dividers, but this is what I have for now*/
+    margin: 5% 20% 0% 20%;
+    position: absolute;
+    width: 50%;
+    border: .1em solid white;
+    border-radius: 50%;
+}
+
+/*start title for each section*/
+.cheader{
+    width: 90%;
+    height: 20%;
+}
+
+.ctitle{
+    height: 1em;
+    width: 1em;
+    border-radius: 100%;
+    background: darkorange;
+    display: inline-block;
+}
+
+h4{
+    margin: 0%;
+    font-size: 4em;
+    display: inline-block;
+}
+/*end title for each section*/
+
+.content p{
+    width: 100%;
+}
+
+/*start intro*/
+/*large picture of me*/
+.intro{
+    background-color: white;
+    height: 25em;
+}
+
+#profile{
+    background: url("/Pictures/Profile.jpg") center 40% no-repeat darkorange;
+    background-size: cover;
+    width: 20em;
+    height: 20em;
+    border-radius: 100%;
+    float: left;
+    border: none;
+}
+
+.intro h3{
+    font-size: 4em;
+    padding: 0%;
+    margin-left: 50%;
+}
+
+.intro p{
+    width: 50%;
+    float: right;
+}
+/*end intro*/
